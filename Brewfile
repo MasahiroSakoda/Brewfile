@@ -1,6 +1,8 @@
 update
 upgrade
 
+tap homebrew/versions
+
 # Version Control
 
 ## Git
@@ -47,11 +49,14 @@ install fontforge
 install wget
 install curl
 
-# Make
-install cmake
+# Configure/Make
+install autoconf
 install automake
+install cmake
 
 # Programming Language
+
+install source-highlight
 
 ## Ruby
 install rbenv
@@ -93,6 +98,7 @@ install libtiff
 install graphviz
 
 # Cask
+tap caskroom/cask
 install brew-cask
 
 # Maintainance
@@ -159,4 +165,3 @@ appstore Moom
 appstore Twitter
 appstore Xcode
 appstore WinArchive Lite
-
